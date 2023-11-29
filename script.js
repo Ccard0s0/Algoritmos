@@ -29,16 +29,6 @@ function updateEmoji() {
 // Atualiza o emoji a cada 1000 milissegundos (1 segundo)
 setInterval(updateEmoji, 1000);
 
-// Criação do elemento de áudio
-const audio = new Audio('https://youtu.be/L6cfrSABQxU?si=EalS4lqSrE-upyOw'); // Substitua 'URL_DA_SUA_MUSICA.mp3' pelo link da sua música
-
-// Configurações do áudio
-audio.loop = true;
-audio.volume = 0.5; // Defina o volume desejado (0.0 a 1.0)
-
-// Reproduz a música
-audio.play();
-
 function gerarCorOutono() {
     // Gerar cores de outono de forma aleatória
     const coresOutono = ["#FF4500", "#DAA520", "#8B4513", "#FF6347", "#CD853F"];
@@ -54,3 +44,4 @@ function aplicarCorBorda() {
 
 // Chamar a função para aplicar a cor da borda a cada 500 milissegundos (0.5 segundos)
 setInterval(aplicarCorBorda, 500);
+

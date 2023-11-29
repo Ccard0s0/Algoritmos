@@ -33,3 +33,9 @@ header {
     border: 5px solid #FF4500; /* Adicione uma borda laranja ao redor do vídeo */
     padding: 10px; /* Adicione algum espaço interno para a borda ser visível */
 }
+
+img {
+    float: right;
+    margin: 3px;
+  }
+  
