@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://www.kruploy.com/ex-dt/dp/2021/07/201.png?ver=66.249.77.97);
+    background-size: 100% auto;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    /* Marrom escuro para o texto */
+}
+
+header {
+    background-color: rgba(196, 134, 20, 0.349);
+    /* Laranja para o cabeçalho */
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.text-1 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text-2 {
+    margin-left: 25%;
+    color: chocolate;
+}
+
+.li-1 {
+    margin-left: 25%;
+}
+#video-container {
+    display: inline-block;
+    border: 5px solid #FF4500; /* Adicione uma borda laranja ao redor do vídeo */
+    padding: 10px; /* Adicione algum espaço interno para a borda ser visível */
+}
