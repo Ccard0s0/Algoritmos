@@ -26,6 +26,7 @@ header {
 
 .li-1 {
     margin-left: 25%;
+    color: black;
 }
 #video-container {
     display: inline-block;
