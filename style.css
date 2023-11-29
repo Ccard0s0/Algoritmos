@@ -26,7 +26,7 @@ header {
 
 .li-1 {
     margin-left: 25%;
-    color: black;
+    color: rgb(29, 26, 26), 0, 0;
 }
 #video-container {
     display: inline-block;
