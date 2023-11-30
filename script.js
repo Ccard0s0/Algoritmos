@@ -45,3 +45,14 @@ function aplicarCorBorda() {
 // Chamar a função para aplicar a cor da borda a cada 500 milissegundos (0.5 segundos)
 setInterval(aplicarCorBorda, 500);
 
+document.addEventListener('DOMContentLoaded', function () {
+  // Obtenha o elemento de áudio
+  const backgroundAudio = document.getElementById('background-audio');
+
+  // Adicione o evento 'canplaythrough' para garantir que a música está carregada antes de reproduzir
+  backgroundAudio.addEventListener('canplaythrough', function () {
+      // Inicie a reprodução da música
+      backgroundAudio.play();
+  });
+});
+
